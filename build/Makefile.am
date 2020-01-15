@@ -1,4 +1,4 @@
-AM_FCFLAGS = $(FDFLAGS)
+AM_FCFLAGS = $(FDFLAGS) -I$(top_builddir)/include
 INCLUDES = $(FFTW_INC)
 LDADD = $(FFTW_LIB)
 
